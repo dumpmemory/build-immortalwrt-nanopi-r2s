@@ -1,7 +1,7 @@
 #!/bin/bash
 cd /home/runner/immortalwrt
 
-mdkir package/swc
+mkdir package/swc
 pushd "package/swc"
 git init
 git remote add origin https://github.com/songchenwen/nanopi-r2s.git
